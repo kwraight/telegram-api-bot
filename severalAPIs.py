@@ -65,7 +65,7 @@ def wallpaper(update, context):
 
 # dima pics
 def dima(update, context):
-    contents = "/Users/kwraight/Desktop/teethShut_original.jpeg"
+    contents = "teethShut_original.jpeg"
     update.message.reply_photo(photo=open(contents, 'rb'))
 
 
